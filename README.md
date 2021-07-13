@@ -15,14 +15,15 @@ NTBT (ORPHAcode's Narrower Term maps to a Broader Term).
 BTNT (ORPHAcode's Narrower Term maps to a Broader Term).
 
 ### API parameters
-`/Mapping/description: 
+`/: 
     get:
       description: "Get information about the API."`
  
 Get mappings with a query for a clinical entity (resources). From any terminology listed to another (orphanet, omim, umls, mesh, meddra, icd). Based on Orphanet's mappings.
 
-`/Mapping/map?form={origin}&code={code}&to={destination} will return results for a clinical entity (resources), from any terminology listed to another (orphanet, omim, umls, mesh, meddra, icd). Based on Orphanets mappings. "`
+`/mapping?form={origin}&code={code}&to={destination} will return results for a clinical entity (resources), from any terminology listed to another (orphanet, omim, umls, mesh, meddra, icd). Based on Orphanets mappings. "`
 
+ex: [http://purl.org/orphanetws/mapping/
 ex: [http://purl.org/orphanetws/mapping?from=icd&code=Q87.4] 
 
 ex: [http://purl.org/orphanetws/mapping?from=icd&code=Q87.4&to=omim] 
