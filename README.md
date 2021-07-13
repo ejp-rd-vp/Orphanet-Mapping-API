@@ -23,7 +23,7 @@ Get mappings with a query for a clinical entity (resources). From any terminolog
 
 `/mapping?form={origin}&code={code}&to={destination} will return results for a clinical entity (resources), from any terminology listed to another (orphanet, omim, umls, mesh, meddra, icd). Based on Orphanets mappings. "`
 
-ex: [http://purl.org/orphanetws/mapping/
+ex: [http://purl.org/orphanetws/mapping/]
 
 ex: [http://purl.org/orphanetws/mapping?from=icd&code=Q87.4] 
 
