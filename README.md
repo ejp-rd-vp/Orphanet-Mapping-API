@@ -15,7 +15,7 @@ NTBT (ORPHAcode's Narrower Term maps to a Broader Term).
 BTNT (ORPHAcode's Narrower Term maps to a Broader Term).
 
 ### API parameters
-`/: 
+`/mapping/: 
     get:
       description: "Get information about the API."`
  
